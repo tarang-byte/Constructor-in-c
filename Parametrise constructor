@@ -1,0 +1,22 @@
+
+#include <iostream>
+using namespace std;
+class construct
+{
+    int a; 
+    public:
+    construct (int m)
+    {
+    a=m;
+}
+void input()
+{
+    cout<<"a="<<a<<endl;
+}
+};
+int main()
+{
+    construct c(5);
+    c.input();
+    return 0;
+}
